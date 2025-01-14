@@ -6,6 +6,8 @@ import Resources from '../Pages/Resources'
 import About from '../Pages/About'
 import Contact from '../Pages/Contact'
 import Layout from '../Component/Layout'
+import Login from '../Pages/Login'
+import Signup from '../Pages/Signup'
 
 const AppRoutes = () => {
   return (
@@ -18,6 +20,8 @@ const AppRoutes = () => {
       <Route path='/resources' element={<Resources/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/login' element={ <Login/>}/>
+      <Route path="/signup" element={<Signup />} />
       </Routes>
 
     </div>
